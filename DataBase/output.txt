@@ -1,0 +1,24 @@
+insert:1
+insert:2
+insert:3
+insert:4
+insert:5
+insert:6
+select:
+select:
+firstName="Ivan" lastName="Ivanov" call='+79998887766' 
+firstName="Ivan" lastName="Sidorov" call='+79998887654' 
+firstName="Nikita" lastName="Alexeev" call='+79991996164' 
+firstName="Konstantin" lastName="Nikolaev" call='+79278522501' 
+firstName="Alexandr" lastName="Tairov" call='+79215642955' 
+sort:6
+select:
+firstName="Alexandr" lastName="Tairov" call='+79215642955' 
+firstName="Dmitry" lastName="Mikhailov" call='+79526661952' 
+firstName="Ivan" lastName="Ivanov" call='+79998887766' 
+firstName="Ivan" lastName="Sidorov" call='+79998887654' 
+firstName="Konstantin" lastName="Nikolaev" call='+79278522501' 
+firstName="Nikita" lastName="Alexeev" call='+79991996164' 
+update:4
+uniq:1
+delete:4

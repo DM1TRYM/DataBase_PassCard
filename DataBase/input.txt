@@ -1,0 +1,13 @@
+insert firstName="Ivan",lastName="Ivanov",call='+79998887766',car='X543HB98',status='active',id=0001,used=12
+insert firstName="Ivan",lastName="Sidorov",call='+79998887654',car='Y523HB95',status='disabled',id=0002,used=15
+insert firstName="Nikita",lastName="Alexeev",call='+79991996164',car='B523OC21',status='vacation',id=0003,used=18
+insert firstName="Konstantin",lastName="Nikolaev",call='+79278522501',car='E541XC99',status='lost',id=0004,used=5
+insert firstName="Dmitry",lastName="Mikhailov",call='+79526661952',car='B965XC21',status='broken',id=0005,used=14
+insert firstName="Alexandr",lastName="Tairov",call='+79215642955',car='B027YE78',status='active',id=0006,used=21
+select firstName,lastName,call lastName=="Ivanov" call=='+79998887766' car=='X543HB98' status/in/'active' id==0001
+select firstName,lastName,call firstName=="Dmitry" lastName=="Mikhailov" call=='+79526661952'
+sort firstName=asc
+select firstName,lastName,call
+update used=13,call='+7(999)888-77-66' firstName=="Ivan" lastName=="Ivanov"
+uniq firstName
+delete lastName=="Tairov"
